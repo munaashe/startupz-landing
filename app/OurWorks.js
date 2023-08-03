@@ -3,7 +3,7 @@ import React from 'react';
 //image imports
 import tolq from './assets/tolq.png';
 import feedbackLabs from './assets/feedbackLabs.png';
-import codeKeeper from './assets/codeKeeper.png';
+import codeKeeper from './assets/codekeeper.png';
 import legalSite from './assets/legalSite.png';
 import thumbs_left from './assets/thumb_left.png';
 import thumbs_right from './assets/thumb_right.png';
