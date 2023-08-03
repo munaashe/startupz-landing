@@ -1,0 +1,41 @@
+[debug] [2023-08-03T21:13:57.829Z] ----------------------------------------------------------------------
+[debug] [2023-08-03T21:13:57.832Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mnash\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-08-03T21:13:57.832Z] CLI Version:   12.4.3
+[debug] [2023-08-03T21:13:57.832Z] Platform:      win32
+[debug] [2023-08-03T21:13:57.832Z] Node Version:  v16.16.0
+[debug] [2023-08-03T21:13:57.833Z] Time:          Thu Aug 03 2023 23:13:57 GMT+0200 (South Africa Standard Time)
+[debug] [2023-08-03T21:13:57.833Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-03T21:13:57.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-03T21:13:57.920Z] > authorizing via signed-in user (denis.siduna@gmail.com)
+[debug] [2023-08-03T21:13:57.920Z] [iam] checking project startupz-denis for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-08-03T21:13:57.922Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/startupz-denis:testIamPermissions [none]
+[debug] [2023-08-03T21:13:57.923Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/startupz-denis:testIamPermissions x-goog-quota-user=projects/startupz-denis
+[debug] [2023-08-03T21:13:57.923Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/startupz-denis:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-03T21:13:59.973Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/startupz-denis:testIamPermissions 200
+[debug] [2023-08-03T21:13:59.973Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/startupz-denis:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-08-03T21:13:59.975Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/startupz-denis [none]
+[debug] [2023-08-03T21:14:00.763Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/startupz-denis 200
+[debug] [2023-08-03T21:14:00.763Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/startupz-denis {"projectId":"startupz-denis","projectNumber":"272988294115","displayName":"startupz-zimbabwe","name":"projects/startupz-denis","resources":{"hostingSite":"startupz-denis"},"state":"ACTIVE","etag":"1_5b310ecc-6863-44d5-883d-d3197072aec3"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Creating an optimized production build...
+
+[info] uncaughtException [Error: EPERM: operation not permitted, open 'C:\Users\mnash\Documents\startupz\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Users\\mnash\\Documents\\startupz\\.next\\trace'
+}
+
+[debug] [2023-08-03T21:14:26.129Z] Error: ENOENT: no such file or directory, open 'C:\Users\mnash\Documents\startupz\.next\server\middleware-manifest.json'
+[error] 
+[error] Error: An unexpected error has occurred.
